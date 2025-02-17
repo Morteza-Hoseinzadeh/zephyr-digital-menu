@@ -1,0 +1,10 @@
+@font-face {
+  font-family: yekanbakh;
+  src: url('../../public/fonts/YekanBakhRegular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: yekanbakh;
+  font-weight: bold;
+  src: url('../../public/fonts/YekanBakhBold.otf') format('opentype');
+}
