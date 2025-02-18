@@ -19,6 +19,10 @@ export type TemplateProps = {
   details: DetailsProps;
 };
 
+export type HeroSectionProps = {
+  [key: string]: string;
+};
+
 export type ThemeProps = {
   [key: string]: Theme;
 };
