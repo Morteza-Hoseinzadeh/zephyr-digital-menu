@@ -15,10 +15,10 @@ const header: React.FC<DetailsProps> = ({ details }) => {
   if (!name || !logo) return null;
 
   return (
-    <Box display={'flex'} alignItems={'center'} justifyContent={'center'} gap={1}>
+    <Box display={'flex'} alignItems={'center'} justifyContent={'center'} gap={2} mb={2}>
       {name && (
         <Box mt={1}>
-          <TypographyComponent variant="h3" component='h3' fontWeight={'bold'}>
+          <TypographyComponent variant="h3" component="h3" fontWeight={'bold'}>
             {name}
           </TypographyComponent>
         </Box>
