@@ -11,7 +11,6 @@ export type ProductProps = {
 export type DetailsProps = {
   logo: string;
   name: string;
-  banner: string;
 };
 
 export type TemplateProps = {

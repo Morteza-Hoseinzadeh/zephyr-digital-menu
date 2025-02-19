@@ -5,7 +5,7 @@ import Header from './components/header';
 const Template: React.FC<TemplateProps> = ({ details, data }) => {
   return (
     <>
-      <Header />
+      <Header details={details} />
     </>
   );
 };

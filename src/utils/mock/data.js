@@ -1,4 +1,3 @@
-export const banner = '/img/banner/cafe23.jpg';
 export const logo = '/img/logo/cafe23.png';
 export const name = 'کافه ۲۳';
 

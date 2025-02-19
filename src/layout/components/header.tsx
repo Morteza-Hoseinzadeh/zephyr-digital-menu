@@ -1,6 +1,18 @@
 import React from 'react';
 
-const Header = () => {
-  return <div></div>;
+interface DetailsProps {
+  details: {
+    name: string;
+    logo: string;
+  };
+}
+
+const header: React.FC<DetailsProps> = ({ details }) => {
+  return (
+    <div>
+      <p></p>
+    </div>
+  );
 };
-export default Header;
+
+export default header;
