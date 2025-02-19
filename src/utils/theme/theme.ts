@@ -1,23 +1,23 @@
 import { createTheme } from '@mui/material/styles';
 
-const light = createTheme({
+const theme = createTheme({
   palette: {
     primary: {
-      main: '#f6f5fa',
-      light: '#ffffff',
-      dark: '#f5f4f9',
-      contrastText: '#fefefe',
+      main: '#21322c',
+      light: '#021d14',
+      dark: '#011d14',
+      contrastText: '#ad8d54',
     },
     secondary: {
-      main: '#000000',
-      light: '#333333',
-      dark: '#000000',
+      main: '#ad8d54',
+      light: '#20312b',
+      dark: '#051610',
       contrastText: '#ffffff',
     },
     text: {
-      primary: '#333333',
-      secondary: '#666666',
-      disabled: '#999999',
+      primary: '#ad8d54',
+      secondary: '#20312b',
+      disabled: '#051610',
     },
     error: {
       main: '#d32f2f',
@@ -44,18 +44,18 @@ const light = createTheme({
       contrastText: '#ffffff',
     },
     background: {
-      default: '#ffffff',
-      paper: 'rgba(225, 225, 225, 0.5)',
+      default: '#011d14',
+      paper: '#21322c',
     },
-    divider: '#e0e0e0',
+    divider: '#20312b',
     action: {
-      active: '#000000',
-      hover: '#e3f2fd',
-      selected: '#bbdefb',
+      active: '#ad8d54',
+      hover: '#20312b',
+      selected: '#051610',
       disabled: '#9e9e9e',
       disabledBackground: '#e0e0e0',
     },
   },
 });
 
-export default light;
+export default theme;
