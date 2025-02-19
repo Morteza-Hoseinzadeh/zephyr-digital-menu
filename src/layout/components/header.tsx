@@ -1,4 +1,7 @@
+import { Box } from '@mui/material';
+import Image from 'next/image';
 import React from 'react';
+import TypographyComponent from '../custom/typography';
 
 interface DetailsProps {
   details: {
@@ -8,10 +11,24 @@ interface DetailsProps {
 }
 
 const header: React.FC<DetailsProps> = ({ details }) => {
+  const { name, logo } = details;
+  if (!name || !logo) return null;
+
   return (
-    <div>
-      <p></p>
-    </div>
+    <Box display={'flex'} alignItems={'center'} justifyContent={'center'} gap={1}>
+      {name && (
+        <Box mt={1}>
+          <TypographyComponent variant="h3" component='h3' fontWeight={'bold'}>
+            {name}
+          </TypographyComponent>
+        </Box>
+      )}
+      {logo && (
+        <Box>
+          <Image src={logo} alt={`${name}.png`} width={100} height={100} />
+        </Box>
+      )}
+    </Box>
   );
 };
 
