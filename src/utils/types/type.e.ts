@@ -17,6 +17,7 @@ export type TemplateProps = {
   data: ProductProps[];
   details: DetailsProps;
   rules: string;
+  category: string[];
 };
 
 export type ThemeProps = {
