@@ -10,6 +10,7 @@ import RuleSection from './components/rules';
 
 import { TemplateProps } from '@/utils/types/type.e';
 import CategorySection from './components/category';
+import Product from './components/product';
 
 const Template: React.FC<TemplateProps> = ({ details, data, rules, category }) => {
   return (
@@ -18,6 +19,7 @@ const Template: React.FC<TemplateProps> = ({ details, data, rules, category }) =
         <Header details={details} />
         <RuleSection rules={rules} />
         <CategorySection category={category} />
+        <Product data={data} />
       </motion.div>
     </ThemeProvider>
   );

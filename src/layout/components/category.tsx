@@ -50,7 +50,7 @@ const styles = {
     width: '100%',
   },
   button: {
-    fontSize: 18,
+    fontSize: 22,
     transition: 'background-color 0.3s ease',
     borderRadius: '16px',
     border: `1px solid ${theme.palette.secondary.main}`,
