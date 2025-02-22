@@ -9,8 +9,7 @@ export type ProductProps = {
 };
 
 export type DetailsProps = {
-  logo: string;
-  name: string;
+  [key: string]: string;
 };
 
 export type TemplateProps = {

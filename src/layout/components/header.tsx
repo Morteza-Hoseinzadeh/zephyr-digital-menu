@@ -5,8 +5,7 @@ import TypographyComponent from '../custom/typography';
 
 interface DetailsProps {
   details: {
-    name: string;
-    logo: string;
+    [key: string]: string;
   };
 }
 
